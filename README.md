@@ -1,10 +1,13 @@
 # AWSP - AWS Profile Switcher
 
-Easily switch between AWS Profiles
+Efficiently AWS SSO Login with CUI Selector.
+
+This is based on [`awsp`](https://github.com/johnnyopao/awsp) code.
 
 <img src="demo.gif" width="500">
 
 ## Prereqs
+
 Setup your profiles using the aws cli
 
 ```sh
@@ -23,16 +26,19 @@ npm install -g awsp
 ```
 
 Add the following to your `.bashrc` or `.zshrc` config
+
 ```sh
 alias awsp="source _awsp"
 ```
 
 ## Usage
+
 ```sh
 awsp
 ```
 
 ## Show your AWS Profile in your shell prompt
+
 For better visibility into what your shell is set to it's helpful to configure your prompt to show the value of the env variable `AWS_PROFILE`.
 
 <img src="screenshot.png" width="300">

@@ -1,20 +1,27 @@
 {
-  "name": "awsp",
-  "version": "0.2.0",
-  "description": "Switch AWS Profiles easily",
-  "main": "index.js",
-  "homepage": "https://github.com/johnnyopao/awsp",
+  "name": "awss",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Efficiently AWS SSO Login with CUI Selector",
+  "exports": "./index.js",
+  "homepage": "https://github.com/tacck/awss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "./postinstall.sh"
   },
   "author": "Johnny Opao",
+  "contributors": [
+    {
+      "name": "Kihara, Takuya"
+    }
+  ],
   "license": "ISC",
   "bin": {
-    "_awsp_prompt": "./index.js",
-    "_awsp": "./run.sh"
+    "_awss_prompt": "./index.js",
+    "_awss": "./run.sh"
   },
+  "node": ">=14.16",
   "dependencies": {
-    "inquirer": "^5.0.1"
+    "inquirer": "^9.1.4"
   }
 }

@@ -1,8 +1,8 @@
 #!/bin/sh
 
-AWS_PROFILE="$AWS_PROFILE" _awsp_prompt
+AWS_PROFILE="$AWS_PROFILE" _awss_prompt
 
-selected_profile="$(cat ~/.awsp)"
+selected_profile="$(cat ~/.awss)"
 
 if [ -z "$selected_profile" ]
 then
