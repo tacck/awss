@@ -1,7 +1,7 @@
 {
   "name": "awssol",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Efficiently AWS SSO Login with CUI Selector",
   "exports": "./index.js",
   "homepage": "https://github.com/tacck/awssol",
