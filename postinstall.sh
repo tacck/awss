@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo "Add the following to your .bashrc or .zshrc config"
-echo '    alias awsp="source _awss"'
+echo '    alias awsp="source _awssol"'
 echo ""

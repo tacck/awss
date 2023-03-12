@@ -63,7 +63,7 @@ const writeToConfig = (answers) => {
 
   return new Promise((resolve, reject) => {
     fs.writeFile(
-      `${homeDir}/.awss`,
+      `${homeDir}/.awssol`,
       profileChoice,
       { flag: "w" },
       function (err) {

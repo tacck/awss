@@ -17,8 +17,8 @@
   ],
   "license": "ISC",
   "bin": {
-    "_awss_prompt": "./index.js",
-    "_awss": "./run.sh"
+    "_awssol_prompt": "./index.js",
+    "_awssol": "./run.sh"
   },
   "node": ">=14.16",
   "dependencies": {
