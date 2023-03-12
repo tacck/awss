@@ -1,5 +1,5 @@
 {
-  "name": "awss",
+  "name": "awsso",
   "type": "module",
   "version": "0.1.0",
   "description": "Efficiently AWS SSO Login with CUI Selector",
