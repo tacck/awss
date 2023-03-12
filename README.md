@@ -1,4 +1,4 @@
-# AWSP - AWS Profile Switcher
+# AWSSOL - AWS SSO Login Selector
 
 Efficiently AWS SSO Login with CUI Selector.
 
@@ -22,19 +22,19 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 ## Setup
 
 ```sh
-npm install -g awsp
+npm install -g awssol
 ```
 
 Add the following to your `.bashrc` or `.zshrc` config
 
 ```sh
-alias awsp="source _awsp"
+alias awsp="source _awssol"
 ```
 
 ## Usage
 
 ```sh
-awsp
+awssol
 ```
 
 ## Show your AWS Profile in your shell prompt
